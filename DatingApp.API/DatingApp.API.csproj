@@ -14,5 +14,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0"/>
     <PackageReference Include="System.Text.Json" Version="4.7.0-preview1.19504.10"/>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0"/>
+    <PackageReference Include="CloudinaryDotNet" Version="1.9.1"/>
   </ItemGroup>
 </Project>
