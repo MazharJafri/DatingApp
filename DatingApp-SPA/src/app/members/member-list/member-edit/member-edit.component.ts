@@ -6,6 +6,7 @@ import { NgForm } from '@angular/forms';
 import { UserService } from 'src/app/_services/user.service';
 import { AuthService } from 'src/app/_services/auth.service';
 
+
 @Component({
   selector: 'app-member-edit',
   templateUrl: './member-edit.component.html',
@@ -23,7 +24,7 @@ export class MemberEditComponent implements OnInit {
   }
 
   constructor(private route: ActivatedRoute, private alertify: AlertifyService,
-    private userService: UserService, private authService: AuthService) { }
+              private userService: UserService, private authService: AuthService) { }
 
   ngOnInit() {
     this.route.data.subscribe(data => {
