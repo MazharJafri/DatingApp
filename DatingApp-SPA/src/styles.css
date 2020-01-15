@@ -31,7 +31,7 @@
 }
 
 .member-tabset > .nav-tabs > li.active {
-    border-bottom: 4px solid #C71C22;
+    border-bottom: 4px solid #2FA4E7;
     position: relative;
 }
 
@@ -52,6 +52,3 @@
     padding: 15px 0;
 }
 
-.details {
-    color: #C71C22 !important;
-}
