@@ -11,3 +11,12 @@ img.img-thumbnail {
 input[type=file] {
     color: transparent;
 }
+
+.add {
+    color: black;
+}
+
+h6 {
+    color: black;
+    margin-top: 2px;
+}

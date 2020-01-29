@@ -31,7 +31,7 @@
 }
 
 .member-tabset > .nav-tabs > li.active {
-    border-bottom: 4px solid #2FA4E7;
+    border-bottom: 4px solid #C71C22;
     position: relative;
 }
 
@@ -50,5 +50,31 @@
     border: 0;
     border-top: 1px solid #eee;
     padding: 15px 0;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    
+    background-color: #C71C22 !important;
+    color: #fff !important;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #C71C22 !important;
+    border-color: #C71C22 !important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #C71C22 !important;
+    background-color: #fff !important;
+    border-color: #C71C22 !important;
+}
+
+.card {
+    border-color: black;
+    border-width: 2px;
 }
 

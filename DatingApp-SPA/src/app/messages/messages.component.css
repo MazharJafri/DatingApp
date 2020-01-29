@@ -9,3 +9,8 @@ table {
 td {
     vertical-align: middle;
 }
+
+h3 {
+    color: black;
+    margin-top: 15px;
+}
